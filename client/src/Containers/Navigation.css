@@ -1,0 +1,31 @@
+.nav_container{
+
+    height:60px;
+    background-color: darkorange;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.left{
+    display:flex;
+    align-items: center;
+}
+
+.nav_input{
+ 
+    margin-left: 10px;
+
+}
+
+.centre{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
