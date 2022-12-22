@@ -1,0 +1,12 @@
+
+.Container_promo{
+    display:flex;
+    width: 100vw;
+    height: 50px;
+    justify-content:center;
+    align-items: center;
+    background-color: aqua;
+
+
+}
+

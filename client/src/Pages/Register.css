@@ -1,0 +1,46 @@
+.reg-container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+
+}
+
+.reg-wrap{
+
+    width:40%;
+    background-color: white;
+    padding: 15px;
+}
+
+.reg-title{
+
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.reg-form {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.reg-input {
+    flex:1;
+    min-width:40%;
+    margin: 10px;
+    padding:10px
+}
+
+.log-form{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
