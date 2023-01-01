@@ -1,3 +1,4 @@
+/* 
 const User = require('../models/user');
 const AppError = require('../apperror');
 const _ = require('underscore');
@@ -70,3 +71,4 @@ exports.login = async (req, res, next) => {
     return next(error);
   }
 };
+*/

@@ -1,3 +1,4 @@
+/*
 const dotenv = require('dotenv');
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
@@ -22,3 +23,4 @@ exports.userAuthentication = async (req, res, next) => {
   }
   next();
 };
+*/

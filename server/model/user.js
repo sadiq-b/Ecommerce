@@ -10,7 +10,7 @@ const userSchema = new mongoose.Schema({
         unique: true
     },
 
-    adress:
+    address:
     {
 
         type: String,
