@@ -4,5 +4,4 @@ const user= require('../model/user')
 
 
 
-
 module.exports = router;
