@@ -8,7 +8,6 @@ const jwt= require('jsonwebtoken');
 const acessToken= (signature) => {
 
     try {
-
         const token= jwt(signature, process.env.ACCESS_TOKEN_SECRET, {
             expiresIn: '1hr',
         });
@@ -53,9 +52,7 @@ router.post('login' , async(req,res) =>{
     try {
 
         const verifyUser= await user.findOne({username:req.body.name})
-
         !verifyUser && res.status(401).json("user not found")
-    
         const verifyPassword = bcrypt.compareSync(req.user.password,verifyUser.password);
 
         if  (verifyPassword ) {
