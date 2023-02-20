@@ -1,12 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const user = require('../model/user');
+const product = require('../model/product');
 const bcrypt = require('bcrypt');
 const { authenticate, userVerification } = require('./routes/middleware');
-
-//updateuserinfo, delete, getuser getallusers usersstarts
-
-//updateuserinfo to update the user information
 
 router.put("/:id", userVerification, async (req, res) => {
 
